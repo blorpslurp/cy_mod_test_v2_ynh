@@ -4,7 +4,7 @@ packaging_format = 2
 
 id = "cytube"
 name = "CyTube"
-description.en = "Online media synchronizer and chat"
+description.en = "Online media synchronizer and chat; mod v2"
 description.fr = "Synchronisateur de médias et chat en ligne"
 
 version = "3.86.0~ynh1"
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/blorpslurp/cy_mod_test/archive/refs/tags/alpha.tar.gz"
-    sha256 = "6f79f00866cc3b5833320b9ef9327f7adb155b75af261b3cfda2f05d770c4335"
+    url = "https://github.com/blorpslurp/cy_mod_test/archive/refs/tags/alpha2.tar.gz"
+    sha256 = "cb9bfcf43814d44b2cc9c74ac7f3eb8bea9f719ae0041c274cd2ca31ed0b1c25"
 
     # autoupdate.strategy = "latest_github_tag"
 
