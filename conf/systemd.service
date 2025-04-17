@@ -9,6 +9,7 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
+ExecStartPre=touch peertube-hosts.json
 ExecStart=__NODEJS_DIR__/node index.js
 Restart=on-failure
 
